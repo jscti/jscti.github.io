@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://jscti.github.io/" />
+    <title>JSCTI Apps | Minimalist & Ad-Free Apps for Android</title>
+    <meta name="description"
+        content="Discover JSCTI's portfolio of Android applications. Featuring NextGP Racing Calendar and Swipe It App Side Launcher. Quality tools, no ads.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jscti.github.io/">
+    <meta property="og:title" content="JSCTI Apps | Minimalist Android Apps">
+    <meta property="og:description" content="Quality Android apps by JsCti. Featuring NextGP and Swipe It.">
+
+    <meta property="twitter:card" content="summary_large_image">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Google+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "JSCTI",
+      "url": "https://jscti.github.io/",
+      "sameAs": [
+        "https://play.google.com/store/apps/developer?id=JsCti"
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --md-sys-color-primary: #3F51B5;
+            --md-sys-color-on-primary: #ffffff;
+            --md-sys-color-surface: #1C1B1F;
+            --md-sys-color-on-surface: #E6E1E5;
+            --md-sys-color-surface-variant: #49454F;
+            --md-sys-color-on-surface-variant: #CAC4D0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--md-sys-color-surface);
+            color: var(--md-sys-color-on-surface);
+            scroll-behavior: smooth;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Google Sans', sans-serif;
+            tracking: -0.02em;
+        }
+
+        .m3-card {
+            background-color: #2b2930;
+            border-radius: 28px;
+            padding: 24px;
+            transition: transform 0.2s ease-out, background-color 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .m3-card:hover {
+            transform: translateY(-4px);
+            background-color: #35333b;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(63, 81, 181, 0.15), transparent)
+        }
+
+        /* Style pour les images dans les cards */
+        .card-image-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* Ratio 16:9 */
+            overflow: hidden;
+            border-radius: 20px;
+            margin-bottom: 16px;
+            border: 2px solid var(--md-sys-color-surface-variant);
+        }
+
+        .card-image-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .m3-card:hover .card-image-wrapper img {
+            transform: scale(1.05);
+        }
+
+        .btn-m3-tonal {
+            background-color: var(--md-sys-color-surface-variant);
+            color: var(--md-sys-color-on-surface-variant);
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-weight: 500;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: auto;
+            /* Pousse le bouton en bas de la card */
+            transition: background-color 0.2s;
+        }
+
+        .btn-m3-tonal:hover {
+            background-color: #5a5660;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-gradient">
+        <section class="px-6 pt-20 pb-12 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 tracking-tight text-white leading-tight">
+                Quality Apps. <span class="text-[#3F51B5]">Zero Ads.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-16">
+                Explore our collection of minimalist Android applications designed for motorsports fans and power users.
+            </p>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-6 pb-24">
+            <div class="grid md:grid-cols-2 gap-10">
+
+                <div class="m3-card">
+                    <div class="card-image-wrapper">
+                        <img src="nextgp/en-presentation.png" alt="NextGP App Screenshot">
+                    </div>
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="material-icons-sharp text-[#3F51B5] text-2xl">calendar_today</span>
+                        <h2 class="text-2xl font-bold text-white">NextGP</h2>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6 flex-grow">
+                        Your ultimate ad-free racing calendar. Follow 15 motorsports (F1, MotoGP, Indycar, NASCAR...)
+                        with precise schedules, notifications, and home screen widgets.
+                    </p>
+                    <div class="flex items-center justify-between gap-4 mt-auto">
+                        <a href="./nextgp/" class="btn-m3-tonal">
+                            <span class="material-icons-sharp text-sm">language</span>
+                            Visit Page
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.jscti.nextgp_f1motogp">
+                            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                                alt="Get it on Google Play" class="h-12">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="m3-card">
+                    <div class="card-image-wrapper">
+                        <img src="swipeit/en-presentation.png" alt="Swipe It App Screenshot">
+                    </div>
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="material-icons-sharp text-[#3F51B5] text-2xl">touch_app</span>
+                        <h2 class="text-2xl font-bold text-white">Swipe It</h2>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6 flex-grow">
+                        Your reactive app side launcher for Android. Access your favorite apps and shortcuts instantly
+                        with a simple gesture from any screen. Highly configurable.
+                    </p>
+                    <div class="flex items-center justify-between gap-4 mt-auto">
+                        <span
+                            class="px-4 py-2 border border-gray-700 rounded-full bg-gray-900 flex items-center gap-2 text-sm text-gray-500">
+                            <span class="material-icons-sharp text-gray-600 text-sm">hourglass_empty</span>
+                            Page Coming Soon
+                        </span>
+                        <a href="https://play.google.com/store/apps/details?id=com.jscti.swipelauncher">
+                            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                                alt="Get it on Google Play" class="h-12">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <footer class="py-16 px-6 text-center border-t border-gray-800 bg-[#1C1B1F]">
+        <div class="max-w-6xl mx-auto space-y-4">
+            <p class="text-gray-600 text-xs">© <span id="year"></span> JSCTI. All application data is handled with
+                privacy in mind.</p>
+            <div class="flex justify-center gap-6 text-sm">
+                <a href="mailto:jscti.dev@gmail.com" class="text-gray-400 hover:text-white transition">Contact Me</a>
+                <a href="https://play.google.com/store/apps/developer?id=JsCti"
+                    class="text-gray-400 hover:text-white transition">Google Play Developer Page</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
