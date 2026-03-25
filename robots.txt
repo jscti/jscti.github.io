@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /json_nextpg/
 Allow: /
 
 Sitemap: https://jscti.github.io/sitemap.xml
