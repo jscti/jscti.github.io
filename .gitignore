@@ -1,0 +1,26 @@
+# --- Dépendances ---
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# --- Fichiers générés par le script ---
+# On ignore le fichier final car il est généré dynamiquement
+# (Sauf si tu veux absolument le versionner, dans ce cas commente la ligne suivante)
+index.html
+*.tmp
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS / Environnement ---
+.DS_Store
+.env
+.cache/
+.bash_history
+
+# --- Éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jscti.github.io/nextgp/">
     <meta property="og:title"
-        content="NextGP | 2026 Racing Calendar for F1, MotoGP, Nascar, Indycar, Superbike, WEC, WRC ...">
+        content="NextGP | {{YEAR}} Racing Calendar for F1, MotoGP, Nascar, Indycar, Superbike, WEC, WRC ...">
     <meta property="og:description" content="F1, MotoGP, Indycar and 12+ racing motorsports agenda in one ad-free app.">
     <meta property="og:image" content="https://jscti.github.io/nextgp/list.png">
 
@@ -33,16 +33,16 @@
         "@type": "SoftwareApplication",
         "name": "NextGP",
         "operatingSystem": "ANDROID",
-        "applicationCategory": "Sports",
+        "applicationCategory": "{{APP_CATEGORY}}",
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "ratingCount": "1443"
+            "ratingValue": "{{APP_SCORE}}",
+            "ratingCount": "{{APP_REVIEWS_NUMBER}}"
         },
         "interactionStatistic": {
             "@type": "InteractionCounter",
             "interactionType": "https://schema.org/DownloadAction",
-            "userInteractionCount": "50,000+"
+            "userInteractionCount": "{{APP_DOWNLOADS}}"
         }
     }
     </script>
@@ -306,15 +306,15 @@
                         <p class="text-sm text-gray-400 mt-2">Mature app, updated frequently</p>
                     </div>
                     <div class="border-l-4 border-[#3F51B5] pl-6">
-                        <div class="text-5xl font-bold text-white">4.8 ★</div>
+                        <div class="text-5xl font-bold text-white">{{APP_SCORE}} ★</div>
                         <p class="text-sm text-gray-400 mt-2">Google Play Rating</p>
                     </div>
                     <div class="border-l-4 border-[#3F51B5] pl-6">
-                        <div class="text-5xl font-bold text-white">1 444</div>
+                        <div class="text-5xl font-bold text-white">{{APP_REVIEWS}}</div>
                         <p class="text-sm text-gray-400 mt-2">Reviews</p>
                     </div>
                     <div class="border-l-4 border-[#3F51B5] pl-6">
-                        <div class="text-5xl font-bold text-white">50,000+</div>
+                        <div class="text-5xl font-bold text-white">{{APP_DOWNLOADS}}</div>
                         <p class="text-sm text-gray-400 mt-2">Downloads</p>
                     </div>
                 </div>
@@ -531,9 +531,8 @@
             <div class="max-w-3xl mx-auto m3-card bg-[#2b2930]">
                 <h2 class="text-4xl font-bold text-white">Last version</h2>
                 <div class="grid py-8">
-                    <div class="text-xl font-bold mb-2">v8.1 - 2026-03-04</div>
-                    <p class="text-sm text-gray-400 mt-2">Fix: Now handling Android System Setting time format correctly
-                        (12/24h)</p>
+                    <div class="text-xl font-bold mb-2">v{{LAST_VERSION_NUMBER}} - {{LAST_VERSION_DATE}}</div>
+                    <p class="text-sm text-gray-400 mt-2">{{LAST_VERSION_CHANGELOG}}</p>
                 </div>
             </div>
         </section>
@@ -541,7 +540,7 @@
 
     <footer class="py-16 px-6 text-center border-t border-gray-800">
         <div class="max-w-6xl mx-auto space-y-4">
-            <p class="text-gray-600 text-xs">© 2026 JSCTI. NextGP is not affiliated with F1, MotoGP,
+            <p class="text-gray-600 text-xs">© {{YEAR}} JSCTI. NextGP is not affiliated with F1, MotoGP,
                 or any associated
                 organizations.</p>
             <div class="flex justify-center gap-6 text-sm">
