@@ -8,12 +8,12 @@
     <link rel="icon" type="image/x-icon" href="https://jscti.github.io/nextgp/favicon.ico">
     <title>NextGP | Your Ultimate 2026 Racing Calendar (F1, MotoGP & more)</title>
     <meta name="description"
-        content="Never miss a race. Get the cleanest, ad-free racing calendar for F1, MotoGP, Indycar, and 12+ other motorsports. Sync to calendar, get precise alerts.">
+        content="Never miss a race. Get the cleanest, ad-free racing calendar for F1, MotoGP, Indycar, IMSA, and 12+ other motorsports. Sync to calendar, get precise alerts.">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jscti.github.io/nextgp/">
     <meta property="og:title"
-        content="NextGP | {{YEAR}} Racing Calendar for F1, MotoGP, Nascar, Indycar, Superbike, WEC, WRC ...">
+        content="NextGP | {{YEAR}} Racing Calendar for F1, MotoGP, Nascar, Indycar, Superbike, WEC, WRC, IMSA, ...">
     <meta property="og:description" content="F1, MotoGP, Indycar and 12+ racing motorsports agenda in one ad-free app.">
     <meta property="og:image" content="https://jscti.github.io/nextgp/list.png">
 
@@ -224,7 +224,7 @@
                 NextGP | Your <span class="text-[#3F51B5] text-shadow-hero">Racing Calendar</span> for 2026
             </h1>
             <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-                A minimalist, ad-free app to show upcoming events for 15 racing motorsports and their precise scheduled
+                A minimalist, ad-free app to show upcoming events for 16 racing motorsports and their precise scheduled
                 times.
             </p>
             <p class="text-lg md:text-xl text-400 max-w-2xl mx-auto mb-10">Made by a motorsports fan, for motorsports
@@ -237,6 +237,7 @@
                 <span class="sport-tag">Formula 2</span>
                 <span class="sport-tag">Formula 3</span>
                 <span class="sport-tag">Formula E</span>
+                <span class="sport-tag">IMSA WeatherTech</span>
                 <span class="sport-tag">NASCAR Cup Series</span>
                 <span class="sport-tag">NASCAR National Series</span>
                 <span class="sport-tag">NASCAR Truck Series</span>
